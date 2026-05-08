@@ -1,14 +1,14 @@
 export const siteConfig = {
   title:
     process.env.NEXT_PUBLIC_SITE_TITLE ??
-    "Karthikeyan V — Senior App Developer",
+    "Karthikeyan V — Full Stack Developer",
   description:
     process.env.NEXT_PUBLIC_SITE_DESCRIPTION ??
     "Portfolio of a senior application developer crafting elegant, high-performance products. Mobile, web, and systems.",
   brand: process.env.NEXT_PUBLIC_SITE_BRAND ?? "kv.dev",
   authorName: process.env.NEXT_PUBLIC_AUTHOR_NAME ?? "Karthikeyan V",
   firstName: process.env.NEXT_PUBLIC_FIRST_NAME ?? "Karthikeyan",
-  role: process.env.NEXT_PUBLIC_ROLE ?? "Senior App Developer",
+  role: process.env.NEXT_PUBLIC_ROLE ?? "Full Stack Developer",
   roleShort: process.env.NEXT_PUBLIC_ROLE_SHORT ?? "Full-Stack Developer",
   tagline:
     process.env.NEXT_PUBLIC_TAGLINE ??

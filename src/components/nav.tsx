@@ -9,7 +9,7 @@ const navLinks = [
   ["Projects", "#projects"],
   ["About", "#about"],
   ["Stack", "#stack"],
-  ["Contact", "#contact"],
+  // ["Contact", "#contact"],
 ] as const;
 
 export function Nav() {
