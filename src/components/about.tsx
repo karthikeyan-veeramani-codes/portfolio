@@ -15,7 +15,7 @@ export function About() {
               <br />
               <br />
               My name is <span className="text-accent">Karthikeyan</span> — a
-              Senior App Developer based in Tiruchirappalli. I&apos;ve spent
+              Full Stack Developer based in Tiruchirappalli. I&apos;ve spent
               five years shipping mobile and web products, primarily in{" "}
               <span className="text-accent">Flutter</span>, with{" "}
               <span className="text-accent">React Native</span>,{" "}
@@ -50,7 +50,7 @@ export function About() {
                 {
                   title:
                     "Building products at Gnapi Technologies, Tiruchirappalli",
-                  meta: "Senior App Developer · now",
+                  meta: "Full Stack Developer · now",
                 },
                 {
                   title:

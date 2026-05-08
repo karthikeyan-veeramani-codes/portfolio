@@ -58,10 +58,10 @@ function ProfileCard() {
           <span className="code-tag">~</span>
           {siteConfig.brand}
         </li>
-        <li className="flex items-center gap-2">
+        {/* <li className="flex items-center gap-2">
           <span className="code-tag">$</span>
           Available · {siteConfig.availabilityYear}
-        </li>
+        </li> */}
       </ul>
 
       <a
@@ -100,13 +100,13 @@ function IntroCard() {
         {siteConfig.tagline}
       </p>
 
-      <a
+      {/* <a
         href="#contact"
         className="mt-8 inline-flex items-center justify-center gap-2 self-center text-accent font-mono text-sm hover:opacity-80 transition"
       >
         Let&apos;s Talk
         <span aria-hidden>👋</span>
-      </a>
+      </a> */}
     </div>
   );
 }
