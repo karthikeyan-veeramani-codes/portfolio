@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { siteConfig } from "@/lib/site-config";
 
 const stats = [
@@ -28,13 +29,16 @@ export function Hero() {
 }
 
 function ProfileCard() {
-  const initials = siteConfig.firstName.slice(0, 2).toUpperCase();
   return (
     <div className="glass-2 rounded-[1.75rem] p-6 shadow-soft flex flex-col">
       <div className="flex items-center gap-3 mb-5">
-        <div className="w-14 h-14 rounded-full bg-gradient-to-br from-[color:var(--accent-teal)] to-[color:var(--accent-cyan)] flex items-center justify-center font-mono text-base font-semibold text-[#02221d]">
-          {initials}
-        </div>
+        <Image
+          src="/logo_thumb.png"
+          alt={siteConfig.authorName}
+          width={56}
+          height={56}
+          className="rounded-full object-cover"
+        />
         <div>
           <div className="font-medium">{siteConfig.firstName}</div>
           <div className="text-xs font-mono opacity-60">{siteConfig.role}</div>

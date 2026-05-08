@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useTheme } from "./theme-provider";
 import { siteConfig } from "@/lib/site-config";
 
@@ -18,7 +19,13 @@ export function Nav() {
     <header className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[min(100%-2rem,72rem)]">
       <nav className="glass rounded-full px-4 md:px-6 py-2.5 flex items-center justify-between shadow-soft">
         <a href="#top" className="flex items-center gap-2 font-mono text-sm">
-          <span className="code-bracket">&lt;C/&gt;</span>
+          <Image
+            src="/logo_thumb.png"
+            alt={siteConfig.brand}
+            width={28}
+            height={28}
+            className="rounded-full object-cover"
+          />
           <span className="tracking-tight">{siteConfig.brand}</span>
         </a>
 
